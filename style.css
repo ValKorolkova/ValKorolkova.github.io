@@ -1,0 +1,217 @@
+.first_page{
+background-image: url(villa_and_pool_AI.jpg);
+background-repeat: no-repeat;
+width: 100%;
+background-size:cover;
+font-family: 'Lato', sans-serif;
+font-size: 36px;
+}
+.logo {
+    font-family: 'Yellowtail', cursive;
+    color: #183A1D;
+    font-size: 32px;
+    /* margin-left: 20px; */
+}
+.logo:hover {
+    text-decoration: none;
+}
+.navbar {
+    background-color: white;
+}
+.nav-style {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+.line-style {
+    color: #183A1D;
+    margin: 60px 143px;
+}
+.section-name {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+}
+.my-container {
+    display: flex;
+    justify-content: center;
+}
+.text-about {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    
+}
+.booking-link {
+    color: #183A1D;
+}
+.booking {
+    width: 184px;
+    height: 197px;
+    border-radius: 12%;
+}
+.booking:hover {
+    width: 220px;
+    height: 236px;
+}
+.text_style {
+    background-color: rgb(242, 241, 235, 0.6);
+    padding: 40px;
+    margin-top: 120px;
+}
+
+.services-page {
+    background-color: rgb(225, 238, 221,0.5);
+}
+.name-size {
+    /* font-size: 18px; */
+    font-family: 'Lato', sans-serif;
+    margin-top: 14px;
+    /* font-weight: bolder; */
+}
+.icon-card-text {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 12px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: #183A1D;
+    text-decoration: underline;
+}
+.card-color {
+    background-color: rgb(242, 241, 235, 0.6);
+    height: 26vh;
+}
+
+
+.contact-button {
+    background-color: #183A1D;
+    border-radius: 12px;
+    color: white;
+    width: 220px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+.contact-button:hover {
+    background-color: #E1EEDD;
+    color: black;
+}
+.mail {
+    background-image: url(icons/Email_white.svg);
+    background-repeat: no-repeat;
+    background-position: 30% 50%;
+    
+}
+.whatsapp {
+    background-image: url(icons/Whatsup_white.svg);
+    background-repeat: no-repeat;
+    background-position: 17% 50%;
+    
+}
+.telegram {
+    background-image: url(icons/telegram-circle_white.svg);
+    background-repeat: no-repeat;
+    background-position: 20% 50%;
+    
+}
+.mail:hover {
+    background-image: url(icons/Email_black.svg);
+}
+.whatsapp:hover {
+    background-image: url(icons/whatsup_black.svg);
+}
+.telegram:hover {
+    background-image: url(icons/telegram_black.svg);
+}
+.contact-icon {
+    margin-right: 4px;
+}
+.container-map {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.google-map {
+    border-radius: 12px;
+    border: 1px solid #183A1D;
+    width: 60vw;
+    height: 40vh;
+}
+
+.my-carusel {
+    height: 36vh;
+}
+
+.created-by {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.room_text_style {
+    margin-top: 20vh;
+}
+.heading {
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Rooms style */
+
+.container-rooms {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.items-room {
+    font-size: 18px;
+    padding: 16px;
+    width: 160px;
+}
+.active-room {
+    font-weight: bold;
+    color: #183A1D;
+    text-decoration: none;
+}
+.active-room:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+@media (max-width: 960px) {
+    .card-color {
+        height: 26vh;
+    }
+    .my-carusel {
+        height: 20vh;
+    }
+    .items-room {
+        font-size: 16px;
+        padding: 0px;
+        width: 50%;
+    }
+}
+
+@media (max-width: 560px) {
+    .container-rooms {
+        flex-direction: column;
+        align-content: center;
+        
+    }
+    .items-room {
+        font-size: 16pxpx;
+        padding: 0px;
+        align-self: center;
+    }
+    .offcanvas {
+        --bs-offcanvas-width: 200px;
+    }
+}
+

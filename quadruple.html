@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villa FourTuna</title>
+    <link rel="icon" href="icons/seafood-fish.svg" type="image/icon type">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" aria-label="Offcanvas navbar large">
+        <div class="container-fluid">
+            <a class="navbar-brand logo" href="file:///Users/vasili/Desktop/Development/villafourtuna/index.html#">Villa FourTuna</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+                <div class="offcanvas-header nav-style">
+                    <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Menu</h5>
+                    <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 nav-style">
+                        <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#rooms">Rooms</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#contacts">Contacts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#reviews">Reviews</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="px-4 pb-4  text-center main">
+        <div class="room_text_style">
+            <h1 class="display-5 fw-bold mb-4 text-body-emphasis heading">Quadruple room</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">Two-room suite, including a double bed and two twin beds. Equipped with cozy, soothing lighting.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carusel -->
+
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="studio/all_4.jpg" class="d-block w-100" alt="studio">
+                </div>
+                <div class="carousel-item">
+                    <img src="studio/bedroom_4.jpg" class="d-block w-100" alt="bedroom">
+                </div>
+                <div class="carousel-item">
+                    <img src="studio/bed_4.jpg" class="d-block w-100" alt="bed">
+                </div>
+                <div class="carousel-item">
+                    <img src="studio/kitchen_4.jpg" class="d-block w-100" alt="bed">
+                </div>
+                <div class="carousel-item">
+                    <img src="studio/bathroom_4.jpg" class="d-block w-100" alt="bed">
+                </div>
+                <div class="carousel-item">
+                    <img src="studio/balcony_4.jpg" class="d-block w-100" alt="bed">
+                </div>
+            </div>
+            <button class="carousel-control-prev  " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next  " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="container-rooms">
+            <a class="items-room" href="file:///Users/vasili/Desktop/Development/villafourtuna/studio.html"><p>Studio</p></a>
+            <a class="items-room" href=""><p>Double room</p></a>
+            <a class="items-room" href=""><p>Triple room </p></a>
+            <a class="items-room active-room" href=""><p>Quadruple room</p></a>
+            <a class="items-room" href=""><p>Family suite with a living room</p></a>
+            <a class="items-room" href=""><p >Three-room mountain-view suite</p></a>
+        </div>
+        <hr class="line-style">
+    </section>
+
+    <!-- Rooms include -->
+
+    <section>
+        <div class="container px-4 py-5" id="icon-grid">
+            <div class="container px-4 py-3" >
+                <div class="description_style  col-lg-8 mx-auto">
+                    <h2 class="display-5 fw-bold text-body-emphasis section-name text-center">In the room, you will find:</h2>
+                </div>
+        
+            <div class="row row-cols-1 row-cols-md-2  row-cols-lg-3 g-4 py-5">
+                <div class="col d-flex align-items-start">
+                    <svg class="bi text-body-secondary flex-shrink-0 me-3 mt-3" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_217_463)">
+                        <path d="M14.1144 20.714L7.41421 27.4142C7.03914 27.7893 6.53043 28 6 28C5.46957 28 4.96086 27.7893 4.58579 27.4142C4.21071 27.0391 4 26.5304 4 26C4 25.4696 4.21071 24.9609 4.58579 24.5858L11.286 17.8856" stroke="#323232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M23.0684 4L16.8179 10.2504C16.3178 10.7505 16.0369 11.4288 16.0369 12.136C16.0369 12.8433 16.3178 13.5216 16.8179 14.0217L17.7607 14.9645C18.0084 15.2121 18.3023 15.4085 18.6259 15.5425C18.9494 15.6765 19.2961 15.7455 19.6463 15.7455C19.9965 15.7455 20.3433 15.6765 20.6668 15.5425C20.9903 15.4085 21.2843 15.2121 21.5319 14.9645L27.7824 8.71403" stroke="#323232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M18.4241 21.2524L21.2525 18.424L27.4143 24.5858C27.7893 24.9609 28.0001 25.4696 28.0001 26C28.0001 26.5304 27.7893 27.0391 27.4143 27.4142C27.0392 27.7893 26.5305 28 26.0001 28C25.4696 28 24.9609 27.7893 24.5858 27.4142L18.4241 21.2524Z" stroke="#323232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M21.636 10.1465L25.4254 6.35706" stroke="#323232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M20.1181 17.3115L21.2524 18.424L17.0097 22.6667C16.9478 22.7286 16.8743 22.7777 16.7934 22.8112C16.7126 22.8447 16.6259 22.8619 16.5383 22.8619C16.4508 22.8619 16.3641 22.8447 16.2832 22.8112C16.2023 22.7777 16.1288 22.7286 16.0669 22.6667L11.2054 17.8052C6.87625 13.476 5.47245 7.8608 8.06997 5.26328H8.09162L8.07214 5.26111L21.2437 18.4327" stroke="#323232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M23.9931 12.5035L19.2791 7.78943" stroke="#323232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_217_463">
+                        <rect width="32" height="32" fill="white"/>
+                        </clipPath>
+                        </defs>
+                    </svg>
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-5 text-body-emphasis name-size">Kitchen</h3>
+                        <p class="icon-card-text">Equipped with everything necessary for cooking and dining.</p>
+                    </div>
+                </div>
+
+                <div class="col d-flex align-items-start">
+                    <svg class="bi text-body-secondary flex-shrink-0 me-3 mt-3" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_217_488)">
+                    <path d="M26.6667 16.0894H5.33341C3.86008 16.0894 2.66675 17.2827 2.66675 18.756V22.6667C2.66675 23.4027 3.26408 24 4.00008 24H28.0001C28.7361 24 29.3334 23.4027 29.3334 22.6667V18.756C29.3334 17.2827 28.1401 16.0894 26.6667 16.0894Z" stroke="#323232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M4.66675 16.1733V16.0893C4.66675 13.8307 6.49741 12 8.75608 12H11.8667C13.7814 12 15.3334 13.552 15.3334 15.4667V16.0893" stroke="#323232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M15.3335 16.0893C15.3335 13.8307 17.1642 12 19.4228 12H23.2455C25.5042 12 27.3348 13.8307 27.3348 16.0893V16.1733" stroke="#323232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M5.3335 13.8534V9.33337C5.3335 7.12404 7.12416 5.33337 9.3335 5.33337H22.6668C24.8762 5.33337 26.6668 7.12404 26.6668 9.33337V13.8534" stroke="#323232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M28 24V26.6667" stroke="#323232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M4 24V26.6667" stroke="#323232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_217_488">
+                    <rect width="32" height="32" fill="white"/>
+                    </clipPath>
+                    </defs>
+                    </svg>
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-5 text-body-emphasis name-size">Bedroom</h3>
+                        <p class="icon-card-text">Room with a double bed. Separate room with two twin beds.</p>
+                    </div>
+                </div>
+
+                <div class="col d-flex align-items-start">
+                    <svg class="bi text-body-secondary flex-shrink-0 me-3 mt-3"  width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_217_471)">
+                    <path d="M28.6666 11.9399L15.9999 26.6666L3.33325 11.9399" stroke="#323232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3.33325 11.94C10.3293 4.90802 21.6706 4.90802 28.6666 11.94" stroke="#323232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M16.0001 13.2373C12.6868 13.2373 9.71343 14.6693 7.63477 16.9413" stroke="#323232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M16 13.2373C19.3133 13.2373 22.2867 14.6693 24.3653 16.9413" stroke="#323232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M16 20.0959C14.388 20.0959 12.98 20.9439 12.1707 22.2146" stroke="#323232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M16 20.0959C17.612 20.0959 19.02 20.9439 19.8293 22.2146" stroke="#323232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_217_471">
+                    <rect width="32" height="32" fill="white"/>
+                    </clipPath>
+                    </defs>
+                    </svg>
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-5 text-body-emphasis name-size">Wi-Fi and TV</h3>
+                        <p class="icon-card-text">High-speed internet and cable television.</p>
+                    </div>
+                </div>
+
+                <div class="col d-flex align-items-start">
+                    <svg class="bi text-body-secondary flex-shrink-0 me-3 mt-3"  width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_217_497)">
+                        <path d="M28 13.8306V7.97997C28 6.97864 27.2587 6.13197 26.2667 5.9973L11.8947 4.06397C7.716 3.5013 4 6.75064 4 10.9666C4 15.2066 7.756 18.4626 11.9533 17.8613L26.284 15.8093C27.268 15.6693 28 14.8253 28 13.8306Z" stroke="#323232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M13.1231 9.24873C14.0344 10.1599 14.0344 11.6373 13.1231 12.5486C12.2119 13.4598 10.7345 13.4598 9.82331 12.5486C8.91209 11.6373 8.91209 10.1599 9.82331 9.24873C10.7345 8.3375 12.2119 8.3375 13.1231 9.24873Z" stroke="#323232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M23.6667 5.7467V16.04" stroke="#323232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M9.33594 17.732C9.66527 20.04 10.1106 23.1507 10.4226 25.3414C10.6413 26.8694 11.9493 28 13.4933 28C15.3799 28 16.8306 26.3334 16.5639 24.4654C16.2346 22.156 15.8919 19.76 15.5466 17.348" stroke="#323232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_217_497">
+                        <rect width="32" height="32" fill="white"/>
+                        </clipPath>
+                        </defs>
+                    </svg>
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-5 text-body-emphasis name-size">Hair Dryer</h3>
+                        <p class="icon-card-text">1200W.</p>
+                    </div>
+                </div>
+
+                <div class="col d-flex align-items-start">
+                    <svg class="bi text-body-secondary flex-shrink-0 me-3 mt-3"  width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_217_480)">
+                        <path d="M26.6667 29.3333H5.33341C3.86008 29.3333 2.66675 28.14 2.66675 26.6666V5.33329C2.66675 3.85996 3.86008 2.66663 5.33341 2.66663H26.6667C28.1401 2.66663 29.3334 3.85996 29.3334 5.33329V26.6666C29.3334 28.14 28.1401 29.3333 26.6667 29.3333Z" stroke="#323232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M24.0001 25.3333H8.00008C7.26408 25.3333 6.66675 24.736 6.66675 24V7.99996C6.66675 7.26396 7.26408 6.66663 8.00008 6.66663H24.0001C24.7361 6.66663 25.3334 7.26396 25.3334 7.99996V24C25.3334 24.736 24.7361 25.3333 24.0001 25.3333Z" stroke="#323232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M15.219 14.1144C16.2604 15.1558 16.2604 16.8443 15.219 17.8857C14.1776 18.9271 12.4892 18.9271 11.4478 17.8857C10.4064 16.8443 10.4064 15.1558 11.4478 14.1144C12.4892 13.073 14.1776 13.073 15.219 14.1144Z" stroke="#323232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M25.3334 13.3334H22.6667" stroke="#323232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M25.3334 18.6666H22.6667" stroke="#323232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_217_480">
+                        <rect width="32" height="32" fill="white"/>
+                        </clipPath>
+                        </defs>
+                    </svg>
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-5 text-body-emphasis name-size">Safe</h3>
+                        <p class="icon-card-text">With personal code encoding.p>
+                    </div>
+                </div>
+
+                <div class="col d-flex align-items-start">
+                    <svg class="bi text-body-secondary flex-shrink-0 me-3 mt-3"  width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_217_504)">
+                        <path d="M6.66675 14.6666H13.4147C14.4387 14.6666 15.4627 14.276 16.2427 13.4946C17.8054 11.932 17.8054 9.39995 16.2427 7.83728C14.6801 6.27462 12.1481 6.27462 10.5854 7.83728" stroke="#323232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M4 20H15.5533C16.4067 20 17.26 20.3253 17.9107 20.976C19.212 22.2773 19.212 24.388 17.9107 25.6907C16.6093 26.9933 14.4987 26.992 13.196 25.6907" stroke="#323232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M20 17.3333H24.876C25.676 17.3333 26.4747 17.028 27.0853 16.4186C28.3053 15.1986 28.3053 13.22 27.0853 12C25.8653 10.78 23.8867 10.78 22.6667 12" stroke="#323232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_217_504">
+                        <rect width="32" height="32" fill="white"/>
+                        </clipPath>
+                        </defs>
+                    </svg>
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-5 text-body-emphasis name-size">Air Conditioning</h3>
+                        <p class="icon-card-text">Modern cooling system.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galery -->
+
+    <section>
+        <div class="container px-4 py-3" >
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="gallery/01.jpg" class="d-block w-100" alt="pool">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="gallery/02.jpg" class="d-block w-100" alt="pool and playground">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="gallery/03.jpg" class="d-block w-100" alt="open pool">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="gallery/04.jpg" class="d-block w-100" alt="BBQ">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="gallery/05.jpg" class="d-block w-100" alt="pool">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="gallery/06.jpg" class="d-block w-100" alt="view">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="gallery/07.jpg" class="d-block w-100" alt="mountains">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="gallery/08.jpg" class="d-block w-100" alt="pool">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="gallery/09.jpg" class="d-block w-100" alt="close pool">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="gallery/10.jpg" class="d-block w-100" alt="kitchen">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="gallery/11.jpg" class="d-block w-100" alt="table">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="gallery/12.jpg" class="d-block w-100" alt="kitchen">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="gallery/13.jpg" class="d-block w-100" alt="villa fourtuna">
+                    </div>
+                </div>
+                <button class="carousel-control-prev arrow-button" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next arrow-button" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>    
+    </section>
+
+
+    <!-- Footer -->
+        <hr class="line-style">
+        <div class="container">
+            <footer class="py-3 my-4">
+                <ul class="nav justify-content-center pb-3 mb-3">
+                    <li class="nav-item nav-link px-2 text-body-secondary">Bar, Montenegro</li>
+                    <li class="nav-item nav-link px-2 text-body-secondary"> +382 69 28 78 68</li>
+                    <li class="nav-item"><a href="#mailto:villafourtuna@mail.ru" class="nav-link px-2 text-body-secondary">villafourtuna@mail.ru</a></li>
+                </ul>
+                <a href="https://creative-auspicious-blackberry.glitch.me "><p class="text-center text-body-secondary created-by" target="_blank">Created by Korolkova</p></a>
+            </footer>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
